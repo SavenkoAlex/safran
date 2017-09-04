@@ -5,6 +5,7 @@ module.exports = class
     constructor()
     {
         this.status =  -1;
+        this.finger;
     }
 
     oDev()
@@ -22,5 +23,6 @@ module.exports = class
     rFinger()
     {
         safran.getFinger();
+        return this.finger;
     }
 }

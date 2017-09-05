@@ -22,7 +22,7 @@ module.exports = class
 
     rFinger()
     {
-        safran.getFinger();
+        this.finger=safran.getFinger();
         return this.finger;
     }
 }
